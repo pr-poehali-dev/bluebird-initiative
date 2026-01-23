@@ -3,10 +3,10 @@ import { motion } from "framer-motion"
 import { ArrowRight } from "lucide-react"
 
 const footerLinks = [
-  { label: "Шаблоны", href: "#" },
-  { label: "Галерея", href: "#" },
-  { label: "Цены", href: "#" },
-  { label: "Войти", href: "#" },
+  { label: "Портфолио", href: "#" },
+  { label: "Тарифы", href: "#" },
+  { label: "Контакты", href: "#" },
+  { label: "Instagram", href: "#" },
 ]
 
 export function FooterSection() {
@@ -52,7 +52,7 @@ export function FooterSection() {
 
           {/* Email signup */}
           <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-            <p className="text-muted-foreground text-sm mb-4">Получайте новости о шаблонах и обновлениях.</p>
+            <p className="text-muted-foreground text-sm mb-4">Подпишитесь на новости и спецпредложения.</p>
             <form onSubmit={(e) => e.preventDefault()} className="flex gap-2">
               <input
                 type="email"

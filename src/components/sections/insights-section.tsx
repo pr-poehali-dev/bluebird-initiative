@@ -5,24 +5,24 @@ import { ArrowRight } from "lucide-react"
 
 const articles = [
   {
-    title: "Искусство визуального сторителлинга",
-    category: "Дизайн",
-    image: "/visual-storytelling-design-article.jpg",
+    title: "Как подготовиться к портретной съёмке",
+    category: "Советы",
+    image: "https://cdn.poehali.dev/projects/3270de15-aa3c-4cf9-9199-108610462a6b/files/a8bc87f9-d65f-4998-9216-cc5a8ea7affa.jpg",
   },
   {
-    title: "Как создать личный бренд онлайн",
-    category: "Стратегия",
-    image: "/personal-branding-digital-marketing.jpg",
+    title: "Работа со светом в студии",
+    category: "Техника",
+    image: "https://cdn.poehali.dev/projects/3270de15-aa3c-4cf9-9199-108610462a6b/files/826345c9-fdfb-4764-a985-db2ac5f3b588.jpg",
   },
   {
-    title: "Тренды типографики 2025",
-    category: "Типографика",
-    image: "/typography-trends-modern-fonts.jpg",
+    title: "Чёрно-белая фотография: возвращение классики",
+    category: "Стиль",
+    image: "https://cdn.poehali.dev/projects/3270de15-aa3c-4cf9-9199-108610462a6b/files/01b13a85-4d05-462f-91db-1655a7f4310a.jpg",
   },
   {
-    title: "Минимализм в дизайне портфолио",
-    category: "Вдохновение",
-    image: "/placeholder.svg?height=200&width=300",
+    title: "Креативные портреты для соцсетей",
+    category: "Тренды",
+    image: "https://cdn.poehali.dev/projects/3270de15-aa3c-4cf9-9199-108610462a6b/files/d039d3ec-a352-44c2-bf07-bd0687b3cc00.jpg",
   },
 ]
 

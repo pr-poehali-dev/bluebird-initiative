@@ -105,8 +105,8 @@ export function FeaturesSection() {
               <TypeTester />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-xl text-foreground">Типографика</h3>
-              <p className="text-muted-foreground text-sm mt-1">Красивые шрифты, которые идеально масштабируются.</p>
+              <h3 className="font-serif text-xl text-foreground">Студийная съёмка</h3>
+              <p className="text-muted-foreground text-sm mt-1">Контролируемый свет и атмосфера для идеального кадра.</p>
             </div>
           </motion.div>
 
@@ -125,8 +125,8 @@ export function FeaturesSection() {
               <LayoutAnimation />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-xl text-foreground">Макеты</h3>
-              <p className="text-muted-foreground text-sm mt-1">Гибкие сетки, которые адаптируются под контент.</p>
+              <h3 className="font-serif text-xl text-foreground">Локации</h3>
+              <p className="text-muted-foreground text-sm mt-1">Съёмка в городе, на природе — выбирайте стиль.</p>
             </div>
           </motion.div>
 
@@ -145,8 +145,8 @@ export function FeaturesSection() {
               <SpeedIndicator />
             </div>
             <div className="mt-4">
-              <h3 className="font-serif text-xl text-foreground">Скорость</h3>
-              <p className="text-muted-foreground text-sm mt-1">Молниеносная загрузка страниц для ваших гостей.</p>
+              <h3 className="font-serif text-xl text-foreground">Быстрая обработка</h3>
+              <p className="text-muted-foreground text-sm mt-1">Получите готовые фото через 3-5 дней после съёмки.</p>
             </div>
           </motion.div>
         </div>
