@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,32 +6,32 @@
 
 @layer base {
   :root {
-    /* Beige & Brown Photography Theme */
-    --background: 40 30% 96%;
-    --foreground: 25 40% 20%;
-    --surface: 40 25% 92%;
-    --ink: 25 40% 20%;
-    --iris: 25 50% 30%;
-    --lilac: 40 30% 88%;
+    /* Folio Lilac & Ink Theme */
+    --background: 270 20% 99%;
+    --foreground: 270 63% 6%;
+    --surface: 270 20% 96%;
+    --ink: 270 63% 6%;
+    --iris: 263 70% 42%;
+    --lilac: 270 89% 85%;
     --lime: 82 85% 80%;
-    --muted-foreground: 25 15% 45%;
+    --muted-foreground: 270 8% 43%;
 
-    --card: 40 25% 92%;
-    --card-foreground: 25 40% 20%;
-    --popover: 40 30% 96%;
-    --popover-foreground: 25 40% 20%;
-    --primary: 25 50% 30%;
-    --primary-foreground: 40 30% 96%;
-    --secondary: 40 25% 92%;
-    --secondary-foreground: 25 40% 20%;
-    --muted: 40 25% 92%;
-    --accent: 25 50% 30%;
-    --accent-foreground: 40 30% 96%;
+    --card: 270 20% 96%;
+    --card-foreground: 270 63% 6%;
+    --popover: 270 20% 99%;
+    --popover-foreground: 270 63% 6%;
+    --primary: 263 70% 42%;
+    --primary-foreground: 270 20% 99%;
+    --secondary: 270 20% 96%;
+    --secondary-foreground: 270 63% 6%;
+    --muted: 270 20% 96%;
+    --accent: 270 89% 85%;
+    --accent-foreground: 270 63% 6%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
-    --border: 40 20% 88%;
-    --input: 40 20% 88%;
-    --ring: 25 50% 30%;
+    --border: 270 15% 92%;
+    --input: 270 15% 92%;
+    --ring: 263 70% 42%;
 
     --radius: 0.75rem;
 
@@ -83,7 +83,7 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
   }
 }
 
@@ -94,8 +94,7 @@
 
 /* Serrated ticket edge */
 .ticket-edge {
-  mask-image:
-    radial-gradient(circle at 0 50%, transparent 8px, black 8px),
+  mask-image: radial-gradient(circle at 0 50%, transparent 8px, black 8px),
     radial-gradient(circle at 100% 50%, transparent 8px, black 8px);
   mask-size: 51% 100%;
   mask-position: left, right;
