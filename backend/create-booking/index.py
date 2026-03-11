@@ -3,6 +3,7 @@ import os
 import psycopg2
 
 
+
 def handler(event: dict, context) -> dict:
     """Создаёт новую заявку на фотосессию и сохраняет её в базу данных."""
     if event.get('httpMethod') == 'OPTIONS':
