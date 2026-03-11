@@ -1,5 +1,7 @@
+import { useState } from "react"
 import { motion } from "framer-motion"
 import { Check } from "lucide-react"
+import { BookingModal } from "@/components/booking-modal"
 
 const plans = [
   {
@@ -20,6 +22,8 @@ const plans = [
 ]
 
 export function PricingSection() {
+  const [selectedPlan, setSelectedPlan] = useState<string | null>(null)
+
   return (
     <section className="bg-secondary px-6 py-24">
       <div className="max-w-5xl mx-auto">
@@ -69,6 +73,7 @@ export function PricingSection() {
               </ul>
 
               <button
+                onClick={() => setSelectedPlan(plan.name)}
                 className={`w-full mt-8 py-3 px-6 rounded-lg font-medium transition-colors ${
                   plan.popular
                     ? "bg-primary text-primary-foreground hover:bg-primary/90"
@@ -81,6 +86,12 @@ export function PricingSection() {
           ))}
         </div>
       </div>
+
+      <BookingModal
+        open={!!selectedPlan}
+        onClose={() => setSelectedPlan(null)}
+        planName={selectedPlan ?? ""}
+      />
     </section>
   )
 }

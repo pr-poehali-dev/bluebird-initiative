@@ -1,0 +1,22 @@
+{
+  "tests": [
+    {
+      "name": "Create booking success",
+      "method": "POST",
+      "path": "/",
+      "body": {"name": "Анна Иванова", "phone": "+79001234567", "email": "anna@example.com", "plan": "Портретная съёмка", "comment": "Хочу портрет на природе"},
+      "expectedStatus": 200,
+      "expectedBody": {"success": true},
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "Missing required fields",
+      "method": "POST",
+      "path": "/",
+      "body": {"name": "Тест"},
+      "expectedStatus": 400,
+      "expectedBody": {"error": "Имя, телефон и тариф обязательны"},
+      "bodyMatcher": "partial"
+    }
+  ]
+}
